@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title> My App </title>
+		<meta name=viewport" content="width=device-width, initial-scale=1">
+		<!-- custom themes -->
+		<link rel="stylesheet" href="themes/asm.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<!-- jquery resources -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	    <script src="main.js"></script>
+
+	</head>
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header" data-theme="c"><h1>Sell Anywhere</h1></div>
+			<div role="main	" class="ui-content">
+				Welcome to ASM (Anywhere Selling Machine)<br><br>
+				<br>
+					<label>Login with your credentials:</label>
+					<!--<div class="col-md-6">	<input type="number" name="number" pattern="[0-9]*" id="number-pattern" > </div>-->
+					<input type="text" name="text-basic" id="text-basic" value="" placeholder="username">
+					<input type="password" name="password" id="password" value="" autocomplete="off" placeholder="password">
+				<a href="" data-role="button" data-theme="c">Login</a>
+				<div align="center"> <a href="#register" data-transition="slide" align="Center" >Register</a> </div>
+
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="c"><h1>(c) Raja Inc</h1></div>
+		</div>
+	
+	
+	
+		<div data-role="page" id="register">
+			<div data-role="header" data-theme="c"><h1>Register</h1></div>
+			<div role="main" class="ui-content">
+					<label>Register</label>
+					<input type="text" name="text-basic" id="text-basic" value="" placeholder="email-id">
+					<input type="password" name="password" id="password" value="" autocomplete="off" placeholder="password">
+					<input type="password" name="password" id="password" value="" autocomplete="off" placeholder="confirm password">
+					<input type="text" name="text-basic" id="text-basic" value="" placeholder="name">
+					<input type="text" name="text-basic" id="text-basic" value="" placeholder="contact no">
+					<a href="" data-role="button" data-theme="c">Register</a>
+					 <div align="center"><a href="#home" data-transition="slide" data-direction="reverse" data-theme="c">Back Home</a>
+			</div>
+		</div>
+	</body>
+</html>
