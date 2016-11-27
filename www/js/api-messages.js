@@ -1,0 +1,13 @@
+var asm = asm || {};
+asm.ApiMessages = asm.ApiMessages || {};
+asm.ApiMessages.EMAIL_NOT_FOUND = 0;
+asm.ApiMessages.INVALID_PWD = 1;
+asm.ApiMessages.DB_ERROR = 2;
+asm.ApiMessages.NOT_FOUND = 3;
+asm.ApiMessages.EMAIL_ALREADY_EXISTS = 4;
+asm.ApiMessages.COULD_NOT_CREATE_USER = 5;
+asm.ApiMessages.PASSWORD_RESET_EXPIRED = 6;
+asm.ApiMessages.PASSWORD_RESET_HASH_MISMATCH = 7;
+asm.ApiMessages.PASSWORD_RESET_EMAIL_MISMATCH = 8;
+asm.ApiMessages.COULD_NOT_RESET_PASSWORD = 9;
+asm.ApiMessages.PASSWORD_CONFIRM_MISMATCH = 10;
